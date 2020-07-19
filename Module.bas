@@ -1,6 +1,7 @@
 Rem Auth : Excelnoob.com
 Const Token = "12345678910" 'isi dengan Token Bot yg dimiliki
 Const sURL = "https://api.telegram.org/bot" & Token
+
 Sub KirimPesan(Pesan As String, ChatID As String)
     Dim oHTTP As Object
     Dim Respon As String
